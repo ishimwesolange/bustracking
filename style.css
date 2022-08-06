@@ -26,6 +26,14 @@ nav .links{
     width: 50%;
     text-align: end;
 }
+nav .togglebtn{
+    display: none;
+    float: right;
+    margin-top: 4%;
+    /* width: 50%; */
+    text-align: end;
+}
+
 
 nav .login{
     text-decoration: none;
@@ -98,10 +106,59 @@ nav .download_link{
     /* float: left; */
 }
 
+@media screen and (max-width: 1220px) {
+    
+    .leftcorner{
+        margin-top: 6%;
+    }
+    .rightcorner{
+        display: block;
+        margin-left: 0%;
+        text-align: right;
+    }
+    
+    .rightcorner .imagephone img{
+        width: 30%;
+    }
+    .footer_link{
+        margin-top: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .leftcorner{
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .rightcorner{
+        display: block;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    .rightcorner .imagephone img{
+        width: 50%;
+    }
+    .footer_link{
+        margin-top: 10%;
+    }
+
+}
+
 @media screen and (max-width: 500px) {
 
     nav .links{
         display: none;
+    }
+    nav .links{
+        display: none;
+    }
+    nav .togglebtn{
+        display: block;
     }
 
 }
