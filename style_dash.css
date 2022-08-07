@@ -44,23 +44,31 @@ body{
 
 
 .notification{
-    position: absolute;
+    /* position: absolute;
     left: 1100px;
-    top: 20px;
+    top: 20px; */
+    float: right;
+    margin-top: -55px;
+    margin-right: 55px;
+    display: inline;
 }
 
 .profile{
-    position: absolute;
-    left: 1150px;
-    top: 15px;
+    /* position: absolute; */
+    /* left: 1150px; */
+    margin-top: -55px;
+    float: right;
+    width: 50%;
+    text-align: right;
+    /* display: inline-block; */
 
 
 }
 .profile span{
     display: inline-block;
-    position: absolute;
-    width: 150px;
-    padding-top: 10px;
+    /* position: absolute;
+    width: 150px; */
+    /* padding-top: 10px; */
     font-size: 16px;
     color: #012970;
 
@@ -189,6 +197,7 @@ body{
     display: inline-block;
     padding: 15px;
     margin-right: 80px;
+    margin-bottom: 20px;
 }
 
 .card_second{
@@ -198,6 +207,7 @@ body{
     display: inline-block;
     padding: 15px;
     margin-right: 80px;
+    margin-bottom: 20px;
 }
 
 .card_third{
@@ -206,6 +216,7 @@ body{
     border-radius: 10px; 
     display: inline-block;
     padding: 15px;
+    margin-bottom: 20px;
     /* margin-right: 60px; */
 }
 
@@ -266,7 +277,42 @@ body{
 }
 
 @media screen  and (max-width: 900px){
-    /*  */
+    .sidebar{
+        display: none;
+    }
+    .profile span{
+        display: inline-block;
+        /* position: absolute;
+        width: 150px; */
+        /* padding-top: 10px; */
+        font-size: 16px;
+        color: #012970;
+    
+    }
+    .page_content{
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+}
+
+@media screen  and (max-width: 500px){
+    .sidebar{
+        display: none;
+    }
+    .profile span{
+        display: none;
+        /* position: absolute;
+        width: 150px; */
+        /* padding-top: 10px; */
+        font-size: 16px;
+        color: #012970;
+    
+    }
+    .page_content{
+        padding-top: 70px;
+        padding-left: 20px;
+    }
 
 }
 
