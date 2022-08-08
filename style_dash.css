@@ -5,14 +5,12 @@ body{
 
 .main{
     /* position: relative; */
-    width: 100%;
+    /* width: 100%; */
     /* height: 1199px; */
     /* background: #F6F9FF; */
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
 }
 
 
@@ -26,55 +24,55 @@ body{
     background: #FFFFFF;
     z-index: 5;
     box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    padding-top: 1%;
 }
 
-.logo{    
-    margin-left: 20px;
-    padding-top: 10px;
+.logo{
+    padding-left: 1%;
+    display: inline;
 
 }
 
 .togglebtn{
-    position: absolute;
-    left: 180px;
-    top: 20px;
+    display: inline;
+    margin-left: 2.5%;
+
+}
+.togglebtn img{
+    display: inline;
+    padding-bottom: 0.5%;
 
 
 }
-
+.nav_right{
+    display: inline;
+    float: right;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.nav_right a{
+    text-decoration: none;
+}
 
 .notification{
-    /* position: absolute;
-    left: 1100px;
-    top: 20px; */
-    float: right;
-    margin-top: -55px;
-    margin-right: 55px;
     display: inline;
 }
 
 .profile{
-    /* position: absolute; */
-    /* left: 1150px; */
-    margin-top: -55px;
-    float: right;
-    width: 50%;
-    text-align: right;
-    /* display: inline-block; */
+    display: inline;
 
 
 }
 .profile span{
-    display: inline-block;
-    /* position: absolute;
-    width: 150px; */
-    /* padding-top: 10px; */
-    font-size: 16px;
+    position: relative;
+    top: -15px;
     color: #012970;
+    
 
 }
 .profile img{
-    display: inline-block;
+    display: inline;
 
 }
 
@@ -82,8 +80,8 @@ body{
 
 .sidebar{
     position: absolute;
-    width: 230px;
-    height: 1199px;
+    width: 17%;
+    height: 150%;
     left: 0px;
     top: 0px;
     background: #004F92;
@@ -93,25 +91,24 @@ body{
 
 .dashbord_link{
     display: block;
-
     background: #FFFFFF;
     border-radius: 5px;
     color: #012970;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
 }
 .dashbord_link img{
-
-    height: 15px;
-    width: 15px;
-    margin-right: 5px ;
-    padding-top: 5px;
+    height: 13px;
+    width: 13px;
+    margin-right: 2% ;
+    padding-top: 2%;
 }
 
 
@@ -122,22 +119,21 @@ body{
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
 
 }
 
 .bus_link img{
-
     height: 15px;
     width: 15px;
-    margin-right: 5px ;
-    padding-top: 5px;
+    margin-right: 2% ;
+    padding-top: 2%;
 }
 
 
@@ -148,26 +144,26 @@ body{
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
 
 }
 
 .driver_link img{
     height: 15px;
     width: 15px;
-    margin-right: 5px ;
-    padding-top: 5px;
+    margin-right: 2% ;
+    padding-top: 2%;
 }
 
 .page_content{
     padding-top: 70px;
-    padding-left: 250px;
+    padding-left: 20%;
 }
 .page_title .title_text{
     font-size: 20px;
@@ -181,12 +177,13 @@ body{
     font-size: 10px;
     line-height: 0px;
     color: rgba(1, 41, 112, 0.62); 
-    margin-bottom: 5px;
+    margin-bottom: 5%;
 }
+
 .card_container{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
 
 }
 
@@ -195,9 +192,9 @@ body{
     box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
     border-radius: 10px; 
     display: inline-block;
-    padding: 15px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    padding: 1.5%;
+    margin-right: 7%;
+    margin-bottom: 3%;
 }
 
 .card_second{
@@ -205,9 +202,9 @@ body{
     box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
     border-radius: 10px; 
     display: inline-block;
-    padding: 15px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    padding: 1.5%;
+    margin-right: 7%;
+    margin-bottom: 4%;
 }
 
 .card_third{
@@ -215,8 +212,8 @@ body{
     box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.25);
     border-radius: 10px; 
     display: inline-block;
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 1.5%;
+    margin-bottom: 4%;
     /* margin-right: 60px; */
 }
 
@@ -265,15 +262,21 @@ body{
 
     color: rgba(0, 0, 0, 0.39);
 }
+
 .chart{
     margin-top: 50px;
+    margin-bottom: 50px;
     margin-right: 50px;
 }
+
 .chart img{
     width: 100%;
     height: 450px;
     border-radius: 25px;
-    box-shadow: 0px 2px 5px rgba(24, 3, 9m6, 0.25);
+    box-shadow: 0px 2px 5px rgba(24, 3, 96, 0.25);
+}
+.bottom_bar{
+    display: none;
 }
 
 @media screen  and (max-width: 900px){
@@ -282,9 +285,6 @@ body{
     }
     .profile span{
         display: inline-block;
-        /* position: absolute;
-        width: 150px; */
-        /* padding-top: 10px; */
         font-size: 16px;
         color: #012970;
     
@@ -293,6 +293,16 @@ body{
         padding-top: 70px;
         padding-left: 50px;
     }
+
+    
+    .card_content{
+        display: inline-block;
+        width: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+        vertical-align: top;
+    }
+    
 
 }
 
@@ -313,6 +323,31 @@ body{
         padding-top: 70px;
         padding-left: 20px;
     }
+
+    .card_first{
+        padding: 10%;
+    }
+    
+    .card_second{
+        padding: 10%;
+    }
+    
+    .card_third{
+        padding: 10%;
+        margin-right: 7%;
+    }
+    
+    .card_content{
+        display: inline-block;
+        width: 100px;
+        margin-left: 40px;
+        margin-right: 40px;
+        vertical-align: top;
+    }
+    .bottom_bar{
+        display: none;
+    }
+    
 
 }
 
