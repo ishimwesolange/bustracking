@@ -283,6 +283,33 @@ body{
 .bottom_bar{
     display: none;
 }
+.table{
+    /* table-layout:fixed; */
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(24, 3, 96, 0.25);
+    padding: 2%;
+    border: 1px solid #004F9250;
+
+}
+
+.table thead tr th{
+    padding-bottom: 1%;
+} 
+.table tbody tr{
+    text-align: center;
+    font-weight: 300;
+}
+.table tbody tr td{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 1px solid #004F92;
+
+} 
+.statusZ{
+    background-color: orange;
+}
+
 
 @media screen  and (max-width: 900px){
     .sidebar{
