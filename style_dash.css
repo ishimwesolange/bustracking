@@ -89,6 +89,11 @@ body{
     padding-top: 80px;
 }
 
+.sidebar a{
+    text-decoration: none;
+}
+
+
 .dashbord_link{
     display: block;
     background: #FFFFFF;
